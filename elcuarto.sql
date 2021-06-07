@@ -1,6 +1,6 @@
 CREATE DATABASE  IF NOT EXISTS `gestionPedidosCRUD` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `gestionPedidosCRUD`;
-
+hice un par de cambios
 
 DROP TABLE IF EXISTS `cliente`;
 

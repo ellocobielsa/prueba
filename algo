@@ -1,0 +1,24 @@
+package hibernate;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Hibernate {
+
+	public static void main(String[] args) {
+		
+		String url = "jdbc:mysql://localhost:3306/hibernate?useSSL=false";
+		String usuario = "root";
+		String pass = "";
+		
+		try {
+			System.out.println("intento de conexion de bbdd: " + url);
+			Connection conexion = DriverManager.getConnection(url, usuario, pass);
+			System.out.println("conecto bien");
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -23,4 +23,6 @@ INSERT INTO `cliente` VALUES
 UNLOCK TABLES;
 
 
+estos son los cambios que estableci en la hoja 4
+
 
